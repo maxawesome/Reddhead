@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		417FBC621CFD705F00C6ED4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417FBC611CFD705F00C6ED4D /* AppDelegate.swift */; };
+		417FBC651CFD705F00C6ED4D /* Reddhead.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 417FBC631CFD705F00C6ED4D /* Reddhead.xcdatamodeld */; };
+		417FBC671CFD705F00C6ED4D /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417FBC661CFD705F00C6ED4D /* MasterViewController.swift */; };
+		417FBC691CFD705F00C6ED4D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417FBC681CFD705F00C6ED4D /* DetailViewController.swift */; };
+		417FBC6C1CFD705F00C6ED4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417FBC6A1CFD705F00C6ED4D /* Main.storyboard */; };
+		417FBC6E1CFD705F00C6ED4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417FBC6D1CFD705F00C6ED4D /* Assets.xcassets */; };
+		417FBC711CFD705F00C6ED4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417FBC6F1CFD705F00C6ED4D /* LaunchScreen.storyboard */; };
+		417FBC7C1CFD705F00C6ED4D /* ReddheadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417FBC7B1CFD705F00C6ED4D /* ReddheadTests.swift */; };
+		417FBC871CFD705F00C6ED4D /* ReddheadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417FBC861CFD705F00C6ED4D /* ReddheadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		417FBC781CFD705F00C6ED4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 417FBC561CFD705F00C6ED4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 417FBC5D1CFD705F00C6ED4D;
+			remoteInfo = Reddhead;
+		};
+		417FBC831CFD705F00C6ED4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 417FBC561CFD705F00C6ED4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 417FBC5D1CFD705F00C6ED4D;
+			remoteInfo = Reddhead;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		417FBC5E1CFD705F00C6ED4D /* Reddhead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reddhead.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		417FBC611CFD705F00C6ED4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		417FBC641CFD705F00C6ED4D /* Reddhead.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Reddhead.xcdatamodel; sourceTree = "<group>"; };
+		417FBC661CFD705F00C6ED4D /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		417FBC681CFD705F00C6ED4D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		417FBC6B1CFD705F00C6ED4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		417FBC6D1CFD705F00C6ED4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		417FBC701CFD705F00C6ED4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		417FBC721CFD705F00C6ED4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417FBC771CFD705F00C6ED4D /* ReddheadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReddheadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		417FBC7B1CFD705F00C6ED4D /* ReddheadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReddheadTests.swift; sourceTree = "<group>"; };
+		417FBC7D1CFD705F00C6ED4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417FBC821CFD705F00C6ED4D /* ReddheadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReddheadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		417FBC861CFD705F00C6ED4D /* ReddheadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReddheadUITests.swift; sourceTree = "<group>"; };
+		417FBC881CFD705F00C6ED4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		417FBC5B1CFD705F00C6ED4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417FBC741CFD705F00C6ED4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417FBC7F1CFD705F00C6ED4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		417FBC551CFD705F00C6ED4D = {
+			isa = PBXGroup;
+			children = (
+				417FBC601CFD705F00C6ED4D /* Reddhead */,
+				417FBC7A1CFD705F00C6ED4D /* ReddheadTests */,
+				417FBC851CFD705F00C6ED4D /* ReddheadUITests */,
+				417FBC5F1CFD705F00C6ED4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		417FBC5F1CFD705F00C6ED4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				417FBC5E1CFD705F00C6ED4D /* Reddhead.app */,
+				417FBC771CFD705F00C6ED4D /* ReddheadTests.xctest */,
+				417FBC821CFD705F00C6ED4D /* ReddheadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		417FBC601CFD705F00C6ED4D /* Reddhead */ = {
+			isa = PBXGroup;
+			children = (
+				417FBC611CFD705F00C6ED4D /* AppDelegate.swift */,
+				417FBC661CFD705F00C6ED4D /* MasterViewController.swift */,
+				417FBC681CFD705F00C6ED4D /* DetailViewController.swift */,
+				417FBC6A1CFD705F00C6ED4D /* Main.storyboard */,
+				417FBC6D1CFD705F00C6ED4D /* Assets.xcassets */,
+				417FBC6F1CFD705F00C6ED4D /* LaunchScreen.storyboard */,
+				417FBC721CFD705F00C6ED4D /* Info.plist */,
+				417FBC631CFD705F00C6ED4D /* Reddhead.xcdatamodeld */,
+			);
+			path = Reddhead;
+			sourceTree = "<group>";
+		};
+		417FBC7A1CFD705F00C6ED4D /* ReddheadTests */ = {
+			isa = PBXGroup;
+			children = (
+				417FBC7B1CFD705F00C6ED4D /* ReddheadTests.swift */,
+				417FBC7D1CFD705F00C6ED4D /* Info.plist */,
+			);
+			path = ReddheadTests;
+			sourceTree = "<group>";
+		};
+		417FBC851CFD705F00C6ED4D /* ReddheadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				417FBC861CFD705F00C6ED4D /* ReddheadUITests.swift */,
+				417FBC881CFD705F00C6ED4D /* Info.plist */,
+			);
+			path = ReddheadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		417FBC5D1CFD705F00C6ED4D /* Reddhead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417FBC8B1CFD705F00C6ED4D /* Build configuration list for PBXNativeTarget "Reddhead" */;
+			buildPhases = (
+				417FBC5A1CFD705F00C6ED4D /* Sources */,
+				417FBC5B1CFD705F00C6ED4D /* Frameworks */,
+				417FBC5C1CFD705F00C6ED4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reddhead;
+			productName = Reddhead;
+			productReference = 417FBC5E1CFD705F00C6ED4D /* Reddhead.app */;
+			productType = "com.apple.product-type.application";
+		};
+		417FBC761CFD705F00C6ED4D /* ReddheadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417FBC8E1CFD705F00C6ED4D /* Build configuration list for PBXNativeTarget "ReddheadTests" */;
+			buildPhases = (
+				417FBC731CFD705F00C6ED4D /* Sources */,
+				417FBC741CFD705F00C6ED4D /* Frameworks */,
+				417FBC751CFD705F00C6ED4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				417FBC791CFD705F00C6ED4D /* PBXTargetDependency */,
+			);
+			name = ReddheadTests;
+			productName = ReddheadTests;
+			productReference = 417FBC771CFD705F00C6ED4D /* ReddheadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		417FBC811CFD705F00C6ED4D /* ReddheadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417FBC911CFD705F00C6ED4D /* Build configuration list for PBXNativeTarget "ReddheadUITests" */;
+			buildPhases = (
+				417FBC7E1CFD705F00C6ED4D /* Sources */,
+				417FBC7F1CFD705F00C6ED4D /* Frameworks */,
+				417FBC801CFD705F00C6ED4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				417FBC841CFD705F00C6ED4D /* PBXTargetDependency */,
+			);
+			name = ReddheadUITests;
+			productName = ReddheadUITests;
+			productReference = 417FBC821CFD705F00C6ED4D /* ReddheadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		417FBC561CFD705F00C6ED4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "JVB Enterprises, LLC";
+				TargetAttributes = {
+					417FBC5D1CFD705F00C6ED4D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					417FBC761CFD705F00C6ED4D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 417FBC5D1CFD705F00C6ED4D;
+					};
+					417FBC811CFD705F00C6ED4D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 417FBC5D1CFD705F00C6ED4D;
+					};
+				};
+			};
+			buildConfigurationList = 417FBC591CFD705F00C6ED4D /* Build configuration list for PBXProject "Reddhead" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 417FBC551CFD705F00C6ED4D;
+			productRefGroup = 417FBC5F1CFD705F00C6ED4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				417FBC5D1CFD705F00C6ED4D /* Reddhead */,
+				417FBC761CFD705F00C6ED4D /* ReddheadTests */,
+				417FBC811CFD705F00C6ED4D /* ReddheadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		417FBC5C1CFD705F00C6ED4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417FBC711CFD705F00C6ED4D /* LaunchScreen.storyboard in Resources */,
+				417FBC6E1CFD705F00C6ED4D /* Assets.xcassets in Resources */,
+				417FBC6C1CFD705F00C6ED4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417FBC751CFD705F00C6ED4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417FBC801CFD705F00C6ED4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		417FBC5A1CFD705F00C6ED4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417FBC651CFD705F00C6ED4D /* Reddhead.xcdatamodeld in Sources */,
+				417FBC621CFD705F00C6ED4D /* AppDelegate.swift in Sources */,
+				417FBC671CFD705F00C6ED4D /* MasterViewController.swift in Sources */,
+				417FBC691CFD705F00C6ED4D /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417FBC731CFD705F00C6ED4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417FBC7C1CFD705F00C6ED4D /* ReddheadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417FBC7E1CFD705F00C6ED4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417FBC871CFD705F00C6ED4D /* ReddheadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		417FBC791CFD705F00C6ED4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 417FBC5D1CFD705F00C6ED4D /* Reddhead */;
+			targetProxy = 417FBC781CFD705F00C6ED4D /* PBXContainerItemProxy */;
+		};
+		417FBC841CFD705F00C6ED4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 417FBC5D1CFD705F00C6ED4D /* Reddhead */;
+			targetProxy = 417FBC831CFD705F00C6ED4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		417FBC6A1CFD705F00C6ED4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417FBC6B1CFD705F00C6ED4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		417FBC6F1CFD705F00C6ED4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417FBC701CFD705F00C6ED4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		417FBC891CFD705F00C6ED4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		417FBC8A1CFD705F00C6ED4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		417FBC8C1CFD705F00C6ED4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Reddhead/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jvbenterprises.Reddhead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		417FBC8D1CFD705F00C6ED4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Reddhead/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jvbenterprises.Reddhead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		417FBC8F1CFD705F00C6ED4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReddheadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jvbenterprises.ReddheadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reddhead.app/Reddhead";
+			};
+			name = Debug;
+		};
+		417FBC901CFD705F00C6ED4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReddheadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jvbenterprises.ReddheadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reddhead.app/Reddhead";
+			};
+			name = Release;
+		};
+		417FBC921CFD705F00C6ED4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ReddheadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jvbenterprises.ReddheadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Reddhead;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		417FBC931CFD705F00C6ED4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ReddheadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jvbenterprises.ReddheadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Reddhead;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		417FBC591CFD705F00C6ED4D /* Build configuration list for PBXProject "Reddhead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417FBC891CFD705F00C6ED4D /* Debug */,
+				417FBC8A1CFD705F00C6ED4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		417FBC8B1CFD705F00C6ED4D /* Build configuration list for PBXNativeTarget "Reddhead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417FBC8C1CFD705F00C6ED4D /* Debug */,
+				417FBC8D1CFD705F00C6ED4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		417FBC8E1CFD705F00C6ED4D /* Build configuration list for PBXNativeTarget "ReddheadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417FBC8F1CFD705F00C6ED4D /* Debug */,
+				417FBC901CFD705F00C6ED4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		417FBC911CFD705F00C6ED4D /* Build configuration list for PBXNativeTarget "ReddheadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417FBC921CFD705F00C6ED4D /* Debug */,
+				417FBC931CFD705F00C6ED4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		417FBC631CFD705F00C6ED4D /* Reddhead.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				417FBC641CFD705F00C6ED4D /* Reddhead.xcdatamodel */,
+			);
+			currentVersion = 417FBC641CFD705F00C6ED4D /* Reddhead.xcdatamodel */;
+			path = Reddhead.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 417FBC561CFD705F00C6ED4D /* Project object */;
+}
